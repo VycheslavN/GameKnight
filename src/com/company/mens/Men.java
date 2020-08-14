@@ -4,7 +4,13 @@ public class Men {
     private int age;
     private int weight;
     private int strength;
-
+    private String name;
+    public Men(int age, int weight, int strength, String name){
+        this.age = age;
+        this.weight = weight;
+        this.strength = strength;
+        this.name = name;
+    }
     public int getAge() {
         return age;
     }
@@ -27,6 +33,14 @@ public class Men {
 
     public void setStrength(int strength) {
         this.strength = strength;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
 
