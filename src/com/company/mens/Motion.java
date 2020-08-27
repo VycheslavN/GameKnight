@@ -5,4 +5,5 @@ public interface Motion {
     void moveBackward();//метод двигаться назад
     int attack();//метод атака
     int defend();//метод защита
+    void pass();//метод передача
 }

@@ -9,6 +9,9 @@ public class Main {
         Knight jon = new Knight(22, 50, 88, "jon");
         jon.attack();
         jon.defend();
+        jon.pass();
+        jon.moveBackward();
+        jon.moveForward();
         System.out.println(jon.getName());
     }
 }
