@@ -1,9 +1,12 @@
 package com.company.mens;
 
+import com.company.objects.Rucksak;
+
 public class Squire extends Men implements Motion {
     private int weapon;
     private int protection;
-    private int rucksak;
+    private Rucksak rucksak;
+
     public Squire(int age, int weight, int strength, String name) {
         super(age, weight, strength, name);
             } //оруженосец
@@ -51,11 +54,11 @@ public class Squire extends Men implements Motion {
         this.protection = protection;
     }
 
-    public int getRucksak() {
+    public Rucksak getRucksak() {
         return rucksak;
     }
 
-    public void setRucksak(int rucksak) {
+    public void setRucksak(Rucksak rucksak) {
         this.rucksak = rucksak;
     }
 }

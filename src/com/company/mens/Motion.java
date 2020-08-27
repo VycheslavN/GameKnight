@@ -5,5 +5,6 @@ public interface Motion {
     void moveBackward();//метод двигаться назад
     int attack();//метод атака
     int defend();//метод защита
-    void pass();//метод передача
+    void pass();//метод передачи
+    void inPass(com.company.objects.Object o);//метод приема
 }
