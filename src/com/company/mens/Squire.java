@@ -1,5 +1,6 @@
 package com.company.mens;
 
+import com.company.objects.Object;
 import com.company.objects.Rucksak;
 
 public class Squire extends Men implements Motion {
@@ -36,6 +37,11 @@ public class Squire extends Men implements Motion {
     @Override
     public void pass() {
         System.out.println("Оруженосец передает предмет");
+    }
+
+    @Override
+    public void inPass(java.lang.Object o) {
+        System.out.println("Оруженосец принимает предмет");
     }
 
     public int getWeapon() {

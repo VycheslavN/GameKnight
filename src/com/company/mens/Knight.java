@@ -1,5 +1,7 @@
 package com.company.mens;
 
+import com.company.objects.Object;
+
 public class Knight extends Men implements Motion {//рыцарь
     private int weapon;
     private int protection;
@@ -33,6 +35,11 @@ public class Knight extends Men implements Motion {//рыцарь
         System.out.println("Рыцарь принимает предмет");
     }
 
+    @Override
+    public void inPass(java.lang.Object o) {
+        System.out.println("Рыцарь сбрасывает предмет");
+    }
+
     public int getWeapon() {
         return weapon;
     }
@@ -47,5 +54,8 @@ public class Knight extends Men implements Motion {//рыцарь
 
     public void setProtection(int protection) {
         this.protection = protection;
+    }
+
+    public void inPass() {
     }
 }

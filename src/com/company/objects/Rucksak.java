@@ -24,18 +24,13 @@ public class Rucksak {
         weapon.add(new Weapon("Топор", 5));
         weapon.add(new Weapon("Арбалет", 8));
         rucksak.put(0,weapon);
+
+        protection = rucksak.get(1);
+        protection.add(new Protection("Нагрудный щит", 3));
+        protection.add(new Protection("Кольчуга", 9));
+        protection.add(new Protection("Шлем", 3));
+        protection.add(new Protection("Щит", 10));
+        rucksak.put(1,protection);
     }
-
-//        Weapon blade = new Weapon("Клинок", 6);
-//        Weapon knife = new Weapon("Нож", 2);
-//        Weapon axe = new Weapon("Топор", 5);
-//        Weapon crossbow = new Weapon("Арбалет", 8);
-
-
-
-//        Protection breastplate = new Protection("Нагрудный щит", 3);
-//        Protection hauberk = new Protection("Кольчуга", 9);
-//        Protection helmet = new Protection("Шлем", 3);
-//        Protection shild = new Protection("Щит", 10);
-    }
+}
 

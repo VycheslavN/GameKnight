@@ -6,5 +6,5 @@ public interface Motion {
     int attack();//метод атака
     int defend();//метод защита
     void pass();//метод передачи
-    void inPass(com.company.objects.Object o);//метод приема
+    void inPass(java.lang.Object o);//метод приема передачи предмета
 }

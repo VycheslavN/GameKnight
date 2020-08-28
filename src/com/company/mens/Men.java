@@ -1,6 +1,8 @@
 package com.company.mens;
 
-public class Men {
+import com.company.objects.Object;
+
+public abstract class Men {
     private int age;
     private int weight;
     private int strength;
@@ -41,6 +43,10 @@ public class Men {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void inPass(java.lang.Object o) {
+
     }
 }
 

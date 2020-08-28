@@ -10,6 +10,7 @@ public class Main {
         jon.attack();
         jon.defend();
         jon.pass();
+        jon.inPass();
         jon.moveBackward();
         jon.moveForward();
         System.out.println(jon.getName());
